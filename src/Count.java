@@ -1,13 +1,5 @@
 import java.io.*;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.*;
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
  * @Author dongboy
  * @what time    2022/12/4 20:18
@@ -23,53 +15,6 @@ public class Count {
         int count2 = file2.listFiles().length;
         System.out.println("hot100写了" + count1);
         System.out.println("剑指offer写了" + count2);
-
-        ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(
-                Runtime.getRuntime().availableProcessors(),
-                Runtime.getRuntime().availableProcessors(),
-                0,
-                TimeUnit.SECONDS,
-                new LinkedBlockingDeque<>(10)
-        );
-        List<Future<List<String>>> list = new ArrayList<>();
-        for (int i = 1; i <= 10; i++) {
-            int cur = i;
-            list.add(poolExecutor.submit(new Callable<List<String>>() {
-                @Override
-                public List<String> call() throws Exception {
-                    List<String> temp = new ArrayList<>();
-                    for (int j = cur; j < cur + 5; j++) {
-                        temp.add(j + "hhh");
-                    }
-                    return temp;
-                }
-            }));
-        }
-        List<List<String>> res = new ArrayList<>();
-        for (int i = 0; i < list.size(); i++) {
-            res.add(list.get(i).get());
-        }
-        res.stream().forEach(e -> System.out.println(e));
-        poolExecutor.shutdown();
-        System.out.println("hhahha");
-//        Runnable runnable = () -> {
-//            for (int i = 0; i < 200000000; i++) {
-//                num++;
-//            }
-//        };
-//        Thread t1 = new Thread(runnable, "测试01线程");
-//        Thread t2 = new Thread(runnable, "测试02线程");
-//        t1.start();
-//        t2.start();
-//        System.out.println("主线程开始睡觉");
-////        记录睡眠时间
-//        long start = System.currentTimeMillis();
-//        Thread.sleep(1000);
-//
-//        System.out.println("睡醒了, 一共睡了 : " + (System.currentTimeMillis() - start) + " 毫秒");
-//        System.out.println("打印一下num 看看结果是多少: " + num);
-//    }
-//
-//    public volatile static int num = 0;
     }
+
 }
