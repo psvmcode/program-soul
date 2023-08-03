@@ -10,9 +10,6 @@ import java.util.Set;
  * @what time    2022/10/20 22:29
  */
 public class a1两数之和 {
-    public static void main(String[] args) {
-
-    }
 
     // hashmap
     public int[] twoSum(int[] nums, int target) {
@@ -25,4 +22,5 @@ public class a1两数之和 {
         }
         return new int[]{-1, -1};
     }
+
 }

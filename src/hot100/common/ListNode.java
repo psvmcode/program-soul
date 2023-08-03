@@ -5,7 +5,9 @@ package hot100.common;
  * @what time    2022/10/27 16:43
  */
 public class ListNode {
+
     public int val;
+
     public ListNode next;
 
     ListNode() {
