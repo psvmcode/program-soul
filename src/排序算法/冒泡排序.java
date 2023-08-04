@@ -7,13 +7,12 @@ import 排序算法.common.Output;
  * @what time    2022/12/16 11:16
  */
 public class 冒泡排序 {
+
     public static void main(String[] args) {
         int[] nums1 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8};
         bubbleSort1(nums1);
         Output.output(nums1);
-
         System.out.println();
-
         int[] nums2 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8};
         bubbleSort2(nums2);
         Output.output(nums2);

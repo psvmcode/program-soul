@@ -22,7 +22,6 @@ public class Commom {
         return res;
     }
 
-
     public static void main(String[] args) {
         ReentrantLock lock = new ReentrantLock();
         lock.unlock();

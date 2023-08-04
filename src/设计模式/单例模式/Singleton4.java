@@ -10,6 +10,7 @@ package 设计模式.单例模式;
 // 要点二：单例类只能自己创建自己的实例，因为构造器私有，想要实例化只能自己创建
 // 要点三：提供自己唯一的类给其他类，写一个公共方法返回单例类的唯一实例
 public class Singleton4 {
+
     // 懒汉式+同步锁(线程安全),在获取单例对象的方法上加同步锁，保证了并发下仍是单例，但是效率低
     private static Singleton4 instance;
 
@@ -23,4 +24,5 @@ public class Singleton4 {
         }
         return instance;
     }
+
 }

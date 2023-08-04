@@ -38,6 +38,7 @@ class CQueue {
         }
         return outStack.pop();
     }
+
 }
 
 //// 太过暴力(回家等通知解法)

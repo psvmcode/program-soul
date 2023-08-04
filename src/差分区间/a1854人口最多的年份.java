@@ -5,6 +5,7 @@ package 差分区间;
  * @what time    2023/1/15 12:47
  */
 public class a1854人口最多的年份 {
+
     public int maximumPopulation(int[][] logs) {
         int[] diff = new int[102];
         for (int i = 0; i < logs.length; i++) {
@@ -28,4 +29,5 @@ public class a1854人口最多的年份 {
         }
         return res;
     }
+
 }

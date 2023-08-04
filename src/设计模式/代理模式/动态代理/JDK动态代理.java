@@ -20,7 +20,9 @@ public class JDK动态代理 {
 
 // 定义吃饭的接口
 interface EatService {
+
     String eat(String food);
+
 }
 
 // 定义吃饭接口的实现类
@@ -31,6 +33,7 @@ class EatServiceImpl implements EatService {
         System.out.println("吃的食物是：" + food);
         return food;
     }
+
 }
 
 // 定义JDK动态代理类
@@ -52,10 +55,12 @@ class MyInvocationHandler implements InvocationHandler {
         System.out.println("after method " + method.getName());
         return invoke;
     }
+
 }
 
 // 获取代理类的工厂类
 class JDKProxyFactory {
+
     public static Object getProxy(Object target) {
         return Proxy.newProxyInstance(
                 target.getClass().getClassLoader(), // 目标类的类加载
@@ -63,4 +68,5 @@ class JDKProxyFactory {
                 new MyInvocationHandler(target) // 代理类对象的自定义InvocationHandler
         );
     }
+
 }

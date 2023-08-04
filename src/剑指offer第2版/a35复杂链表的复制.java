@@ -10,6 +10,7 @@ import java.util.Map;
  * @what time    2023/2/17 22:18
  */
 public class a35复杂链表的复制 {
+
     Map<Node, Node> map = new HashMap<>();
 
     public Node copyRandomList(Node head) {
@@ -24,4 +25,5 @@ public class a35复杂链表的复制 {
         }
         return map.get(head);
     }
+
 }

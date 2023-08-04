@@ -10,6 +10,7 @@ package 设计模式.单例模式;
 // 要点二：单例类只能自己创建自己的实例，因为构造器私有，想要实例化只能自己创建
 // 要点三：提供自己唯一的类给其他类，写一个公共方法返回单例类的唯一实例
 public class Singleton5 {
+
     // 双重锁校验(线程安全且效率高),volatile的使用保证了各线程对静态实例修改的可见性，不用每次获得锁，减少了等待锁的时间
     private volatile static Singleton5 instance;
 
@@ -28,4 +29,5 @@ public class Singleton5 {
         }
         return instance;
     }
+
 }

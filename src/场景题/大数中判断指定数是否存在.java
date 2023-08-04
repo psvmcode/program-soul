@@ -9,11 +9,15 @@ import java.util.Map;
  * @what time    2023/3/1 14:32
  */
 public class 大数中判断指定数是否存在 {
+
     public class BitMap {
+
         // 数据容器
         private byte[] byteBits;
+
         // 最大值
         private int maxValue;
+
         // 容量
         private int capacity;
 
@@ -45,4 +49,5 @@ public class 大数中判断指定数是否存在 {
         }
 
     }
+
 }

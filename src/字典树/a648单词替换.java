@@ -9,9 +9,6 @@ import java.util.List;
  * @what time    2022/12/12 11:41
  */
 public class a648单词替换 {
-    public static void main(String[] args) {
-
-    }
 
     // 暴力解法(回家等通知)
     public String replaceWords(List<String> dictionary, String sentence) {

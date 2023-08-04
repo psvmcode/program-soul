@@ -19,12 +19,13 @@ public class 简单工厂模式 {
         operation2.setTwo(2);
         double resultSub = operation2.getResult();
         System.out.println(resultSub);
-
     }
+
 }
 
 // 工厂方法
 class OperationFactory {
+
     public static Operation createOperation(String str) {
         Operation operation = null;
         switch (str) {
@@ -39,11 +40,14 @@ class OperationFactory {
         }
         return operation;
     }
+
 }
 
 // 计算类
 abstract class Operation {
+
     private double one;
+
     private double two;
 
     abstract double getResult();
@@ -63,21 +67,26 @@ abstract class Operation {
     public void setTwo(double two) {
         this.two = two;
     }
+
 }
 
 // 加法
 class Add extends Operation {
+
     @Override
     double getResult() {
         return getOne() + getTwo();
     }
+
 }
 
 // 减法
 class Sub extends Operation {
+
     @Override
     double getResult() {
         return getOne() - getTwo();
     }
+
 }
 

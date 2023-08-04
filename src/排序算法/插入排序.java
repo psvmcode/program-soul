@@ -7,13 +7,12 @@ import 排序算法.common.Output;
  * @what time    2022/12/16 15:30
  */
 public class 插入排序 {
+
     public static void main(String[] args) {
         int[] nums1 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8};
         insertSort(nums1);
         Output.output(nums1);
-
         System.out.println();
-
     }
 
     public static void insertSort(int[] nums) {

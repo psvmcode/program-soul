@@ -10,6 +10,7 @@ package 设计模式.单例模式;
 // 要点二：单例类只能自己创建自己的实例，因为构造器私有，想要实例化只能自己创建
 // 要点三：提供自己唯一的类给其他类，写一个公共方法返回单例类的唯一实例
 public class Singleton6 {
+
     // 静态内部类(线程安全且效率高)
     // 当单例类被加载时，单例对象不一定被初始化，因为静态内部类没有被主动使用
     // 只有通过显示调用getInstance时才会显示加载静态内部类，从而实例化单例类
@@ -23,4 +24,5 @@ public class Singleton6 {
     public static final Singleton6 getInstance() {
         return SingletonHolder.instance;
     }
+
 }

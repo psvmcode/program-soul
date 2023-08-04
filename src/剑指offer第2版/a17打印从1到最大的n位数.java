@@ -5,6 +5,7 @@ package 剑指offer第2版;
  * @what time    2023/2/5 15:09
  */
 public class a17打印从1到最大的n位数 {
+
     public int[] printNumbers(int n) {
         int sum = 1;
         while (n > 0) {
@@ -17,4 +18,5 @@ public class a17打印从1到最大的n位数 {
         }
         return res;
     }
+
 }

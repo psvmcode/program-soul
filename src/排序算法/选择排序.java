@@ -7,13 +7,12 @@ import 排序算法.common.Output;
  * @what time    2022/12/16 12:37
  */
 public class 选择排序 {
+
     public static void main(String[] args) {
         int[] nums1 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8};
         selectSort1(nums1);
         Output.output(nums1);
-
         System.out.println();
-
     }
 
     // 传统的选择排序，每次挑选一个最值放到一边，直到挑选完所有的数
@@ -38,4 +37,5 @@ public class 选择排序 {
             }
         }
     }
+
 }

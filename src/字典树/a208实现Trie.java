@@ -5,16 +5,13 @@ package 字典树;
  * @what time    2022/12/12 11:32
  */
 public class a208实现Trie {
-    public static void main(String[] args) {
-
-    }
-
 
 }
 
 class Trie {
 
     Trie[] children;
+
     boolean isWord;
 
     public Trie() {
@@ -54,4 +51,5 @@ class Trie {
         }
         return true;
     }
+
 }

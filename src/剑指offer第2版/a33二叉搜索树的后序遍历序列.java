@@ -5,6 +5,7 @@ package 剑指offer第2版;
  * @what time    2023/2/15 22:06
  */
 public class a33二叉搜索树的后序遍历序列 {
+
     public boolean verifyPostorder(int[] postorder) {
         return dfs(0, postorder.length - 1, postorder);
     }
@@ -29,4 +30,5 @@ public class a33二叉搜索树的后序遍历序列 {
         }
         return dfs(left, root - 1, postorder) && dfs(root, right - 1, postorder);
     }
+
 }

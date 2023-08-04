@@ -55,6 +55,7 @@ public class a36二叉搜索树与双向链表 {
 //    }
 
     Node pre;
+
     Node head;
 
     public Node treeToDoublyList(Node root) {
@@ -86,4 +87,5 @@ public class a36二叉搜索树与双向链表 {
         pre = root;
         dfs(root.right);
     }
+
 }

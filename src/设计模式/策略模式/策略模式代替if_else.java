@@ -12,6 +12,7 @@ public class 策略模式代替if_else {
 
 // 常规写法
 class NormalTypeJudge {
+
     public void judgeType(String type) {
         if (type.equals("doc")) {
             System.out.println("doc");
@@ -21,11 +22,14 @@ class NormalTypeJudge {
             System.out.println("excel");
         }
     }
+
 }
 
 // 策略模式改写
 interface TypeJudgeStrategy {
+
     void judgeType(String type);
+
 }
 
 class TypeOfDoc implements TypeJudgeStrategy {
@@ -34,6 +38,7 @@ class TypeOfDoc implements TypeJudgeStrategy {
     public void judgeType(String type) {
         System.out.println("doc");
     }
+
 }
 
 class TypeOfPdf implements TypeJudgeStrategy {
@@ -42,6 +47,7 @@ class TypeOfPdf implements TypeJudgeStrategy {
     public void judgeType(String type) {
         System.out.println("pdf");
     }
+
 }
 
 class TypeOfExcel implements TypeJudgeStrategy {
@@ -50,9 +56,11 @@ class TypeOfExcel implements TypeJudgeStrategy {
     public void judgeType(String type) {
         System.out.println("excel");
     }
+
 }
 
 class TypeJudgeFactory {
+
     private static final Map<String, TypeJudgeStrategy> map = new HashMap<>();
 
     static {
@@ -64,12 +72,15 @@ class TypeJudgeFactory {
     public static TypeJudgeStrategy getStrategy(String type) {
         return map.get(type);
     }
+
 }
 
 class TestOfTypeJudgeStrategy {
+
     public static void main(String[] args) {
         String type = "doc";
         TypeJudgeStrategy strategy = TypeJudgeFactory.getStrategy(type);
         strategy.judgeType(type);
     }
+
 }

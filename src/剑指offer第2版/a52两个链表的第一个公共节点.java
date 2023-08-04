@@ -37,4 +37,5 @@ public class a52两个链表的第一个公共节点 {
         }
         return one;
     }
+
 }

@@ -10,6 +10,7 @@ package 设计模式.单例模式;
 // 要点二：单例类只能自己创建自己的实例，因为构造器私有，想要实例化只能自己创建
 // 要点三：提供自己唯一的类给其他类，写一个公共方法返回单例类的唯一实例
 public class Singleton2 {
+
     // 饿汉式-静态代码块(线程安全)，将类的实例化放在代码块中
     private static Singleton2 instance;
 
@@ -23,4 +24,5 @@ public class Singleton2 {
     public static Singleton2 getInstance() {
         return instance;
     }
+
 }

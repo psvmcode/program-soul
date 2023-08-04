@@ -17,7 +17,9 @@ public class 静态代理 {
 
 // 定义吃饭的接口
 interface EatService {
+
     String eat(String food);
+
 }
 
 // 实现吃饭的接口
@@ -28,6 +30,7 @@ class EatServiceImpl implements EatService {
         System.out.println("吃的食物是：" + food);
         return food;
     }
+
 }
 
 // 创建代理类并实现吃饭
@@ -48,4 +51,5 @@ class EatProxy implements EatService {
         System.out.println("吃饭后喝水");
         return food;
     }
+
 }

@@ -7,6 +7,7 @@ import hot100.common.TreeNode;
  * @what time    2023/2/22 21:51
  */
 public class a55II平衡二叉树 {
+
     // dfs
     public boolean isBalanced(TreeNode root) {
         if (root == null) {
@@ -24,4 +25,5 @@ public class a55II平衡二叉树 {
         }
         return Math.max(maxDeepth(root.left), maxDeepth(root.right)) + 1;
     }
+
 }

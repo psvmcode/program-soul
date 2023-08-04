@@ -10,9 +10,7 @@ import java.util.List;
  * @what time    2022/12/12 12:47
  */
 public class a676实现一个魔法字典 {
-    public static void main(String[] args) {
 
-    }
 }
 
 // 集合解题

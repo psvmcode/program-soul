@@ -8,6 +8,7 @@ public class 策略模式常规写法 {
 }
 
 class Context {
+
     //抽象策略
     private Strategy strategy = null;
 
@@ -20,11 +21,14 @@ class Context {
     public void doAnything() {
         this.strategy.doSomething();
     }
+
 }
 
 interface Strategy {
+
     // 策略模式运算法则
     public void doSomething();
+
 }
 
 class ConcreteStrategy1 implements Strategy {
@@ -33,6 +37,7 @@ class ConcreteStrategy1 implements Strategy {
     public void doSomething() {
         System.out.println("ConcreteStrategy1");
     }
+
 }
 
 class ConcreteStrategy2 implements Strategy {
@@ -41,9 +46,11 @@ class ConcreteStrategy2 implements Strategy {
     public void doSomething() {
         System.out.println("ConcreteStrategy2");
     }
+
 }
 
 class TestForStrategy {
+
     public static void main(String[] args) {
         // 声明一个具体的策略
         Strategy strategy = new ConcreteStrategy1();
@@ -52,4 +59,5 @@ class TestForStrategy {
         // 执行封装后的方法
         context.doAnything();
     }
+
 }

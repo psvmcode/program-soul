@@ -5,9 +5,6 @@ package 差分区间;
  * @what time    2023/1/15 12:31
  */
 public class a1109航班预订统计 {
-    public static void main(String[] args) {
-
-    }
 
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] diff = new int[n + 1];

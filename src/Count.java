@@ -15,7 +15,6 @@ public class Count {
         int count2 = file2.listFiles().length;
         System.out.println("hot100写了" + count1);
         System.out.println("剑指offer写了" + count2);
-
     }
 
 }

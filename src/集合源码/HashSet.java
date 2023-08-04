@@ -10,6 +10,7 @@ import java.util.Set;
  * @what time    2022/12/31 14:31
  */
 public class HashSet<E> extends AbstractSet<E> implements Serializable, Cloneable, Set<E> {
+
     @Override
     public Iterator<E> iterator() {
         return null;

@@ -45,6 +45,7 @@ public class Demo {
  * 如果需要短时间创建大量对象，并且new的过程比较耗时。则可以考虑使用原型模式！
  */
 class User implements Cloneable {  //用户
+
     public User() {
         try {
             Thread.sleep(0);  //模拟创建对象耗时的过程!
@@ -58,4 +59,5 @@ class User implements Cloneable {  //用户
         Object obj = super.clone();  //直接调用object对象的clone()方法！
         return obj;
     }
+
 }

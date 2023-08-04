@@ -7,6 +7,7 @@ import hot100.common.TreeNode;
  * @what time    2023/2/13 17:05
  */
 public class a26树的子结构 {
+
     public boolean isSubStructure(TreeNode A, TreeNode B) {
         // A本身和B一样
         // A的左子树和B一样
@@ -26,4 +27,5 @@ public class a26树的子结构 {
         }
         return method(A.left, B.left) && method(A.right, B.right);
     }
+
 }

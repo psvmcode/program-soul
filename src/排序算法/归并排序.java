@@ -7,13 +7,12 @@ import 排序算法.common.Output;
  * @what time    2022/12/19 12:22
  */
 public class 归并排序 {
+
     public static void main(String[] args) {
         int[] nums1 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8};
         method(nums1);
         Output.output(nums1);
-
         System.out.println();
-
         int[] nums2 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8, 1, 3, 2, 1, 3, 4, 6, 7, 7, 857, 564};
         method(nums2);
         Output.output(nums2);
@@ -22,7 +21,6 @@ public class 归并排序 {
     public static void method(int[] nums) {
         mergeSort(0, nums.length - 1, nums);
     }
-
 
     // 把数组分为两部分排序
     public static void mergeSort(int left, int right, int[] nums) {

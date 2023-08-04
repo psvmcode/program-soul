@@ -5,6 +5,7 @@ package 差分区间;
  * @what time    2023/1/15 12:35
  */
 public class a1094拼车 {
+
     public boolean carPooling(int[][] trips, int capacity) {
         int[] diff = new int[1001];
         for (int i = 0; i < trips.length; i++) {
@@ -26,4 +27,5 @@ public class a1094拼车 {
         }
         return true;
     }
+
 }

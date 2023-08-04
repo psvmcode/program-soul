@@ -12,6 +12,7 @@ import java.util.List;
  * @what time    2023/1/25 18:15
  */
 public class a06从尾到头打印链表 {
+
 //    // 使用集合给返回数组赋值
 //    public int[] reversePrint(ListNode head) {
 //        if (head == null) {
@@ -44,4 +45,5 @@ public class a06从尾到头打印链表 {
         deque = null;
         return res;
     }
+
 }

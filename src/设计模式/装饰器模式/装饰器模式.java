@@ -20,11 +20,14 @@ public class 装饰器模式 {
 
 // 抽象组件
 interface Component {
+
     void drink();
+
 }
 
 // 抽象装饰器
 abstract class Decorator implements Component {
+
     Component component;
 
     // 构造方法强制子类传入一个Component参数
@@ -36,18 +39,22 @@ abstract class Decorator implements Component {
     public void drink() {
         this.component.drink();
     }
+
 }
 
 // 具体组件
 class Man implements Component {
+
     @Override
     public void drink() {
         System.out.println("喝咖啡");
     }
+
 }
 
 // 具体装饰器
 class Coffee extends Decorator {
+
     public Coffee(Component component) {
         super(component);
     }
@@ -61,4 +68,5 @@ class Coffee extends Decorator {
     private void drinkWithSuger() {
         System.out.println("加糖");
     }
+
 }

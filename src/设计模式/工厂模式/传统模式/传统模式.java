@@ -21,11 +21,14 @@ public class 传统模式 {
         System.out.println(resultSub);
         // 这里创建了重复的类，其实创建重复类的工作可以交给统一的类管理
     }
+
 }
 
 // 计算类
 abstract class Operation {
+
     private double one;
+
     private double two;
 
     abstract double getResult();
@@ -45,22 +48,27 @@ abstract class Operation {
     public void setTwo(double two) {
         this.two = two;
     }
+
 }
 
 // 加法
 class Add extends Operation {
+
     @Override
     double getResult() {
         return getOne() + getTwo();
     }
+
 }
 
 // 减法
 class Sub extends Operation {
+
     @Override
     double getResult() {
         return getOne() - getTwo();
     }
+
 }
 
 

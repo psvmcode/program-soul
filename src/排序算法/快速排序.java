@@ -7,13 +7,12 @@ import 排序算法.common.Output;
  * @what time    2022/12/16 16:42
  */
 public class 快速排序 {
+
     public static void main(String[] args) {
         int[] nums1 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8};
         quickSort(nums1);
         Output.output(nums1);
-
         System.out.println();
-
         int[] nums2 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8, 1, 3, 2, 1, 3, 4, 6, 7, 7, 857, 564};
         quickSort(nums2);
         Output.output(nums2);

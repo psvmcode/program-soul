@@ -26,8 +26,10 @@ public class 观察者模式 {
 
 // 抽象观察者
 interface Observer {
+
     // 更新方法
     void update();
+
 }
 
 // 具体观察者
@@ -37,6 +39,7 @@ class ConcreteObserver implements Observer {
     public void update() {
         System.out.println("收到信息，进行处理");
     }
+
 }
 
 // 被观察者
@@ -61,6 +64,7 @@ abstract class Subject {
             observerList.get(i).update();
         }
     }
+
 }
 
 // 具体被观察者

@@ -5,6 +5,7 @@ package 剑指offer第2版;
  * @what time    2023/2/5 14:32
  */
 public class a15二进制中1的个数 {
+
 //    // 调用Java自带的api(回家等通知)
 //    public int hammingWeight(int n) {
 //        String s = Integer.toBinaryString(n);

@@ -67,5 +67,4 @@ public class a16数值的整数次方 {
         return res;
     }
 
-
 }

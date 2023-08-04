@@ -7,6 +7,7 @@ import hot100.common.ListNode;
  * @what time    2023/2/5 15:20
  */
 public class a18删除链表的节点 {
+
     public ListNode deleteNode(ListNode head, int val) {
         if (head.val == val) {
             return head.next;
@@ -21,4 +22,5 @@ public class a18删除链表的节点 {
         }
         return head;
     }
+
 }

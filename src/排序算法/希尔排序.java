@@ -12,9 +12,7 @@ public class 希尔排序 {
         int[] nums1 = new int[]{3, 2, 1, 4, 5, 2, 6, 7, 8};
         shellSort(nums1);
         Output.output(nums1);
-
         System.out.println();
-
     }
 
     // 希尔排序:在插入排序的基础上，每次间隔几个步长进行插入排序
