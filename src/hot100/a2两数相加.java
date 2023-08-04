@@ -7,9 +7,6 @@ import hot100.common.ListNode;
  * @what time    2022/10/20 22:34
  */
 public class a2两数相加 {
-    public static void main(String[] args) {
-
-    }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(-1);
@@ -38,5 +35,6 @@ public class a2两数相加 {
         }
         return res.next;
     }
+
 }
 

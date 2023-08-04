@@ -7,8 +7,6 @@ import java.util.*;
  * @what time    2022/10/20 23:04
  */
 public class a3无重复字符的最长子串 {
-    public static void main(String[] args) {
-    }
 
     // 用HashMap记录字符串上一次出现的位置(换数据结构存储)
     public int lengthOfLongestSubstring(String s) {
@@ -81,4 +79,5 @@ public class a3无重复字符的最长子串 {
 //        }
 //        return res;
 //    }
+    
 }
