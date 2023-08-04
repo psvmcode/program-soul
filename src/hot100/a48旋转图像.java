@@ -5,8 +5,6 @@ package hot100;
  * @what time    2022/11/5 20:42
  */
 public class a48旋转图像 {
-    public static void main(String[] args) {
-    }
 
     // 原地解法:旋转90度其实就是每一步同时转换4个元素，这四个元素分别关于正方形对角线对称
     // 时间O(n^2) 空间O(1)
@@ -44,4 +42,5 @@ public class a48旋转图像 {
 //            }
 //        }
 //    }
+
 }

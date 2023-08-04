@@ -7,9 +7,6 @@ import java.util.*;
  * @what time    2022/12/4 20:28
  */
 public class a128最长连续序列 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 暴力:去重后排序(回家等通知解法)
 //    public int longestConsecutive(int[] nums) {

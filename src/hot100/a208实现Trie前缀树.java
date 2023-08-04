@@ -5,9 +5,7 @@ package hot100;
  * @what time    2022/12/14 21:50
  */
 public class a208实现Trie前缀树 {
-    public static void main(String[] args) {
 
-    }
 }
 
 class Trie {

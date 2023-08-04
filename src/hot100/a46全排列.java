@@ -8,8 +8,6 @@ import java.util.List;
  * @what time    2022/11/5 20:27
  */
 public class a46全排列 {
-    public static void main(String[] args) {
-    }
 
     // 回溯解法
     List<List<Integer>> res;
@@ -45,4 +43,5 @@ public class a46全排列 {
             path.remove(path.size() - 1);
         }
     }
+
 }

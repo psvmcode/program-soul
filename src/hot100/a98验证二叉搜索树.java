@@ -10,9 +10,6 @@ import java.util.List;
  * @what time    2022/12/3 21:22
  */
 public class a98验证二叉搜索树 {
-    public static void main(String[] args) {
-
-    }
 
     List<Integer> list;
 

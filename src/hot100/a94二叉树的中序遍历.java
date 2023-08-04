@@ -12,9 +12,6 @@ import java.util.List;
  * @what time    2022/12/3 16:34
  */
 public class a94二叉树的中序遍历 {
-    public static void main(String[] args) {
-
-    }
 
 //    List<Integer> res;
 //
@@ -63,4 +60,5 @@ public class a94二叉树的中序遍历 {
         }
         return res;
     }
+
 }

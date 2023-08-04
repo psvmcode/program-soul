@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/10/24 22:50
  */
 public class a5最长回文子串 {
-    public static void main(String[] args) {
-
-    }
 
     // 中心开花
     public String longestPalindrome(String s) {
@@ -49,4 +46,5 @@ public class a5最长回文子串 {
         }
         return res;
     }
+
 }

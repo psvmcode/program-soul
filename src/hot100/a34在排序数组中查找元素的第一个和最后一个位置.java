@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/11/2 19:42
  */
 public class a34在排序数组中查找元素的第一个和最后一个位置 {
-    public static void main(String[] args) {
-
-    }
 
     // 二分+中心开花解法
     public int[] searchRange(int[] nums, int target) {
@@ -47,4 +44,5 @@ public class a34在排序数组中查找元素的第一个和最后一个位置 
 //        }
 //        return new int[]{-1, -1};
 //    }
+
 }

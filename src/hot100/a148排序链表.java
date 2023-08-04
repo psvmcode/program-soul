@@ -13,8 +13,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @what time    2022/12/4 21:40
  */
 public class a148排序链表 {
-    public static void main(String[] args) {
-    }
 
     // 暴力解法:取出所有数字后排序,再创建新的链表后返回(回家等通知解法)
     public ListNode sortList(ListNode head) {
@@ -32,4 +30,5 @@ public class a148排序链表 {
         }
         return dummy.next;
     }
+
 }

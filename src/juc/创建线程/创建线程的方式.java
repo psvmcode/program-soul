@@ -7,6 +7,7 @@ import java.util.concurrent.*;
  * @what time    2023/1/5 20:58
  */
 public class 创建线程的方式 {
+
     public static void main(String[] args) {
         MyThread1 thread1 = new MyThread1();
         thread1.start();
@@ -17,7 +18,6 @@ public class 创建线程的方式 {
         FutureTask<String> futureTask = new FutureTask<>(callable);
         Thread thread3 = new Thread(futureTask);
         thread3.start();
-
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         for (int i = 0; i < 5; i++) {
             executorService.submit(new Runnable() {
@@ -28,11 +28,11 @@ public class 创建线程的方式 {
             });
         }
         executorService.shutdown();
-
     }
 }
 
 class MyThread1 extends Thread {
+
     public MyThread1() {
     }
 
@@ -40,6 +40,7 @@ class MyThread1 extends Thread {
     public void run() {
         System.out.println("继承Thread创建线程");
     }
+
 }
 
 class MyThread2 implements Runnable {
@@ -48,6 +49,7 @@ class MyThread2 implements Runnable {
     public void run() {
         System.out.println("实现Runnable接口");
     }
+
 }
 
 class MyThread3 implements Callable {
@@ -57,4 +59,5 @@ class MyThread3 implements Callable {
         System.out.println("实现Callable接口");
         return "实现Callable接口";
     }
+
 }

@@ -11,10 +11,13 @@ public interface 模拟买高铁票 {
 }
 
 class Ticket {
+
     // 起始站
     private String start;
+
     // 终点站
     private String end;
+
     // 票价，用BigDecimal防止后续需要计算，能保证精度
     private BigDecimal price;
 
@@ -60,12 +63,14 @@ class Ticket {
                 ", price=" + price +
                 '}';
     }
+
 }
 
 // 单例系统，双重校验锁
 class TicketSystem {
 
     private volatile static TicketSystem system = new TicketSystem();
+
     // 存储所有车票，其中CopyOnWriteArrayList保证线程安全读写
     private CopyOnWriteArrayList<Ticket> list = new CopyOnWriteArrayList<>();
 
@@ -101,10 +106,12 @@ class TicketSystem {
             return null;
         }
     }
+
 }
 
 // 当前窗口
 class Window extends Thread {
+
     //当前窗口名称
     private String winName;
 
@@ -139,14 +146,17 @@ class Window extends Thread {
             }
         }
     }
+
 }
 
 class Test {
+
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
             Window window = new Window("北京" + i + "站");
             window.start();
         }
     }
+
 }
 

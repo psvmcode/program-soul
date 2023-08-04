@@ -10,9 +10,6 @@ import java.util.List;
  * @what time    2023/1/14 20:58
  */
 public class a61旋转链表 {
-    public static void main(String[] args) {
-
-    }
 
     // 把链表里的元素取出来操作(回家等通知解法)
     public ListNode rotateRight(ListNode head, int k) {
@@ -40,4 +37,5 @@ public class a61旋转链表 {
         }
         return dummy.next;
     }
+
 }

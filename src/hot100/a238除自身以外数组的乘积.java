@@ -5,6 +5,7 @@ package hot100;
  * @what time    2023/1/21 17:36
  */
 public class a238除自身以外数组的乘积 {
+
     // 前缀和解题
     public int[] productExceptSelf(int[] nums) {
         int[] dp1 = new int[nums.length]; // dp1[i]表示i前面所有数的和
@@ -30,4 +31,5 @@ public class a238除自身以外数组的乘积 {
         }
         return nums;
     }
+
 }

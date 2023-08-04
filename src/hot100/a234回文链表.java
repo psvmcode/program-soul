@@ -10,9 +10,6 @@ import java.util.List;
  * @what time    2022/12/29 23:12
  */
 public class a234回文链表 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 把链表中的数全部取出来作判断(回家等通知解法)
 //    public boolean isPalindrome(ListNode head) {
@@ -62,4 +59,5 @@ public class a234回文链表 {
         // 同时栈弹出一个元素，为尾节点的前一个节点
         return true;
     }
+
 }

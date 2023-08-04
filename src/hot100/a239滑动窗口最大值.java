@@ -10,9 +10,6 @@ import java.util.Queue;
  * @what time    2022/12/10 10:35
  */
 public class a239滑动窗口最大值 {
-    public static void main(String[] args) {
-
-    }
 
     // 利用队列维护滑动窗口最大值，保证队列内下标对应的元素递减，且首尾元素之和在k
     public int[] maxSlidingWindow(int[] nums, int k) {
@@ -44,4 +41,5 @@ public class a239滑动窗口最大值 {
         }
         return res;
     }
+
 }

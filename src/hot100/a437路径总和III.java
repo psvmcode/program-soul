@@ -7,10 +7,6 @@ import hot100.common.TreeNode;
  * @what time    2023/1/17 21:56
  */
 public class a437路径总和III {
-    public static void main(String[] args) {
-        int i = 294967296;
-        System.out.println(0 - 1000000000);
-    }
 
     public int pathSum(TreeNode root, int targetSum) {
         int res = 0;

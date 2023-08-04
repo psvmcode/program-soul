@@ -8,10 +8,10 @@ import java.util.concurrent.CountDownLatch;
  * @what time    2023/3/9 20:31
  */
 public class CountDownLatch的使用 {
-//    Integer
+
     public static void main(String[] args) {
         String str = "";
-        str.startsWith("a",1);
+        str.startsWith("a", 1);
         CountDownLatch count = new CountDownLatch(6);
         new Thread(() -> {
             long size = count.getCount();
@@ -36,4 +36,5 @@ public class CountDownLatch的使用 {
         }).start();
         System.out.println("123");
     }
+
 }

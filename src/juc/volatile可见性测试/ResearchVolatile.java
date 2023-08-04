@@ -7,8 +7,11 @@ import sun.misc.Unsafe;
  * @what time    2023/3/9 10:40
  */
 public class ResearchVolatile {
+
     private static boolean flag = true;
+
     private static Integer count = 0;
+
     // 保证Java中的可见性，方式有两种：
     // 1.内存屏障(storeload) ---> JVM曾main
     // 2.上下文切换
@@ -40,4 +43,5 @@ public class ResearchVolatile {
         Thread.sleep(1000);
         refresh.start();
     }
+
 }

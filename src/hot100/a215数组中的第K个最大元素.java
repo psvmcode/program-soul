@@ -7,8 +7,6 @@ import java.util.*;
  * @what time    2022/12/14 22:00
  */
 public class a215数组中的第K个最大元素 {
-    public static void main(String[] args) {
-    }
 
 //    // 暴力排序后返回(回家等通知解法)
 //    public int findKthLargest(int[] nums, int k) {
@@ -41,4 +39,5 @@ public class a215数组中的第K个最大元素 {
 //    public int quickSelect(int[] nums, int left, int right, int index) {
 //        int
 //    }
+
 }

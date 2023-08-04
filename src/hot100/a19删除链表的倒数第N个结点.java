@@ -11,9 +11,6 @@ import java.util.List;
  * @what time    2022/10/27 16:43
  */
 public class a19删除链表的倒数第N个结点 {
-    public static void main(String[] args) {
-
-    }
 
     // 双指针，维持一个长为n+1的双指针，第二个指针走到链表尾，第一个指针指向的下一个元素就是要删除的元素
 //    public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -75,4 +72,5 @@ public class a19删除链表的倒数第N个结点 {
         }
         return head;
     }
+
 }

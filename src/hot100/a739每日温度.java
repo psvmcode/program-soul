@@ -10,8 +10,6 @@ import java.util.List;
  * @what time    2022/11/25 23:21
  */
 public class a739每日温度 {
-    public static void main(String[] args) {
-    }
 
     // 暴力:回家等通知解法
     public int[] dailyTemperatures(int[] temperatures) {

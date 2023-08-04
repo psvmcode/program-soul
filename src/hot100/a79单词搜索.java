@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/12/3 15:57
  */
 public class a79单词搜索 {
-    public static void main(String[] args) {
-
-    }
 
     // 回溯法解题
     public boolean exist(char[][] board, String word) {

@@ -10,8 +10,6 @@ import java.util.Queue;
  * @what time    2022/10/25 15:08
  */
 public class a17电话号码的字母组合 {
-    public static void main(String[] args) {
-    }
 
     // 回溯实现，深度优先
     String[] strings = new String[]
@@ -78,4 +76,5 @@ public class a17电话号码的字母组合 {
 //        }
 //        return res;
 //    }
+
 }

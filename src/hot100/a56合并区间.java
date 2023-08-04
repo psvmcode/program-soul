@@ -9,9 +9,6 @@ import java.util.List;
  * @what time    2022/11/14 17:10
  */
 public class a56合并区间 {
-    public static void main(String[] args) {
-
-    }
 
     // 迭代法
     public int[][] merge(int[][] intervals) {
@@ -43,4 +40,5 @@ public class a56合并区间 {
         }
         return res;
     }
+
 }

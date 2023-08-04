@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/12/8 21:16
  */
 public class a494目标和 {
-    public static void main(String[] args) {
-        System.out.println(Integer.toString(21, 3));
-    }
 
 //    // 回溯解题
 //    public int findTargetSumWays(int[] nums, int target) {

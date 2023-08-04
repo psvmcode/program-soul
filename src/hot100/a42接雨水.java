@@ -8,8 +8,6 @@ import java.util.Deque;
  * @what time    2022/11/5 11:13
  */
 public class a42接雨水 {
-    public static void main(String[] args) {
-    }
 
     // 双指针解法 时间O(n) 空间O(1) todo 需要理解
     public int trap(int[] height) {
@@ -84,4 +82,5 @@ public class a42接雨水 {
 //        }
 //        return res;
 //    }
+
 }

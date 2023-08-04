@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/11/21 23:18
  */
 public class a72编辑距离 {
-    public static void main(String[] args) {
-
-    }
 
     // 动态规划
     public int minDistance(String word1, String word2) {

@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/11/21 22:51
  */
 public class a64最小路径和 {
-    public static void main(String[] args) {
-
-    }
 
     // 动态规划
     public int minPathSum(int[][] grid) {

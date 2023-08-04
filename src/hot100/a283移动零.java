@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/12/31 12:45
  */
 public class a283移动零 {
-    public static void main(String[] args) {
-        moveZeroes(new int[]{0, 1, 0, 3, 1, 2});
-    }
 
 //    // 从前往后遍历，把不为0的数都依次填充，最后把后面的位置用0填充
 //    public void moveZeroes(int[] nums) {

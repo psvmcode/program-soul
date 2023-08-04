@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/12/3 19:27
  */
 public class a96不同的二叉搜索树 {
-    public static void main(String[] args) {
-
-    }
 
     // 假设n个节点存在二叉排序树的个数是G(n)，
     // 1为根节点，2为根节点，...，n为根节点，

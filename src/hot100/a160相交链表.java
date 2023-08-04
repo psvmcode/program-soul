@@ -9,9 +9,6 @@ import java.util.*;
  * @what time    2022/12/2 21:29
  */
 public class a160相交链表 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 暴力解法:把两个链表的节点分别装进两个集合，然后判断是否有一样的(回家等通知解法)
 //    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

@@ -10,9 +10,6 @@ import java.util.Set;
  * @what time    2022/12/2 21:11
  */
 public class a141环形链表 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 利用Set集合判断是否存在环
 //    public boolean hasCycle(ListNode head) {

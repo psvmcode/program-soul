@@ -9,9 +9,6 @@ import java.util.*;
  * @what time    2022/12/21 10:48
  */
 public class a142环形链表II {
-    public static void main(String[] args) {
-
-    }
 
 //    // 用set集合存储并判断是否有环
 //    public ListNode detectCycle(ListNode head) {

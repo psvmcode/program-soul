@@ -9,9 +9,6 @@ import java.util.Map;
  * @what time    2022/12/11 22:19
  */
 public class a169多数元素 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 暴力解法:先排序，然后返回中位数(回家等通知)
 //    public int majorityElement(int[] nums) {

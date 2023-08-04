@@ -5,6 +5,7 @@ package juc.sleep和wait;
  * @what time    2023/1/26 16:59
  */
 public class Sleep和Wait {
+
     public static void main(String[] args) {
         // sleep让当前线程休眠，可以用在任何地方
         try {
@@ -31,4 +32,5 @@ public class Sleep和Wait {
             object.notify();
         }
     }
+
 }

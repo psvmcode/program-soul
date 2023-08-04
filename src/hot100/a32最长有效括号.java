@@ -9,9 +9,6 @@ import java.util.Deque;
  * @what time    2022/11/2 16:46
  */
 public class a32最长有效括号 {
-    public static void main(String[] args) {
-
-    }
 
     // 数学思路解题:只要到当前位置位置右括号的数量不大于左括号，一旦左右括号数量相等，则一定符合规则
     public int longestValidParentheses(String s) {
@@ -93,4 +90,5 @@ public class a32最长有效括号 {
 //        }
 //        return res;
 //    }
+
 }

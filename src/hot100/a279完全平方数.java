@@ -7,9 +7,6 @@ import java.util.Map;
  * @what time    2022/12/31 12:09
  */
 public class a279完全平方数 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 动态规划解法
 //    public int numSquares(int n) {
@@ -64,6 +61,5 @@ public class a279完全平方数 {
         }
         return n % 8 == 7;
     }
-
 
 }

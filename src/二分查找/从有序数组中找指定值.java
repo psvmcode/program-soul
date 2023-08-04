@@ -5,6 +5,7 @@ package 二分查找;
  * @what time    2023/2/12 15:52
  */
 public class 从有序数组中找指定值 {
+
     public static void main(String[] args) {
         int[] nums = new int[]{0, 1, 4, 4, 5, 7};
         int target = 4;
@@ -26,4 +27,5 @@ public class 从有序数组中找指定值 {
         }
         return -1;
     }
+
 }

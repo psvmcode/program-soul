@@ -7,6 +7,7 @@ import com.sun.xml.internal.ws.api.message.Packet;
  * @what time    2023/1/22 23:56
  */
 public class a309最佳买卖股票时机含冷冻期 {
+
     public int maxProfit(int[] prices) {
         if (prices.length < 3) {
             return prices.length == 1 ? 0 : Math.max(0, prices[1] - prices[0]);
@@ -25,4 +26,5 @@ public class a309最佳买卖股票时机含冷冻期 {
         }
         return dp[prices.length - 1][1];
     }
+
 }

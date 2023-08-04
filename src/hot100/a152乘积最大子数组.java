@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/12/5 22:45
  */
 public class a152乘积最大子数组 {
-    public static void main(String[] args) {
-
-    }
 
     // 贪心
     public int maxProduct(int[] nums) {

@@ -10,9 +10,6 @@ import java.util.List;
  * @what time    2022/12/14 13:51
  */
 public class a206反转链表 {
-    public static void main(String[] args) {
-
-    }
 
     // 迭代法解题
     public ListNode reverseList(ListNode head) {
@@ -27,4 +24,5 @@ public class a206反转链表 {
         }
         return pre;
     }
+
 }

@@ -7,9 +7,7 @@ import java.util.Map;
  * @what time    2022/12/11 23:13
  */
 public class a198打家劫舍 {
-    public static void main(String[] args) {
 
-    }
 //
 //    // 动态规划:一维数组
 //    public int rob(int[] nums) {

@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/12/13 14:46
  */
 public class a200岛屿数量 {
-    public static void main(String[] args) {
-
-    }
 
     // 回溯
     public int numIslands(char[][] grid) {

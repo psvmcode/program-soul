@@ -10,6 +10,7 @@ import java.util.PriorityQueue;
  * @what time    2023/1/18 22:15
  */
 public class a406根据身高重建队列 {
+
     public int[][] reconstructQueue(int[][] people) {
         Arrays.sort(people, (a, b) -> {
             // 身高一样就按照排名升序，否则按照身高降序
@@ -29,4 +30,5 @@ public class a406根据身高重建队列 {
         }
         return res;
     }
+
 }

@@ -10,12 +10,11 @@ import java.util.concurrent.*;
  * @what time    2023/1/5 23:08
  */
 public class 创建线程池的方式 {
-    public static void main(String[] args) {
 
-    }
 }
 
 class One {
+
     // 创建固定大小的线程池
     public static void main(String[] args) {
         // 创建大小为5的线程池
@@ -32,9 +31,11 @@ class One {
         }
         threadPoll.shutdown();
     }
+
 }
 
 class Two {
+
     // 创建单个线程的线程池，能保证先进先出的顺序
     public static void main(String[] args) {
         // 创建线程池
@@ -50,9 +51,11 @@ class Two {
         }
         threadPoll.shutdown();
     }
+
 }
 
 class Three {
+
     // 创建可缓存的线程池，若线程数比需要的线程数还多，则回收，当线程数不够时会新建线程
     // 能复用线程，不必频繁的创建销毁线程
     // 提供了任务队列和拒绝策略
@@ -70,9 +73,11 @@ class Three {
         }
         threadPool.shutdown();
     }
+
 }
 
 class Four {
+
     // 创建能延时执行任务的线程池
     public static void main(String[] args) {
         // 创建线程池
@@ -87,9 +92,11 @@ class Four {
         }, 1, TimeUnit.SECONDS);
         threadPool.shutdown();
     }
+
 }
 
 class Five {
+
     // 单线程的能执行延时任务的线程池
     public static void main(String[] args) {
         // 创建线程池
@@ -103,9 +110,11 @@ class Five {
         }, 1, TimeUnit.SECONDS);
         threadPool.shutdown();
     }
+
 }
 
 class Six {
+
     // 抢占式的线程池，执行顺序不确定，在jdk 1.8+才能使用
     public static void main(String[] args) {
         // 创建线程池
@@ -125,9 +134,11 @@ class Six {
 
         }
     }
+
 }
 
 class Seven {
+
     // 手动创建线程池
     public static void main(String[] args) {
         // 创建线程池，包括7种核心参数
@@ -162,4 +173,5 @@ class Seven {
         }
         threadPool.shutdown();
     }
+
 }

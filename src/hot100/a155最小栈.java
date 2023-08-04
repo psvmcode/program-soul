@@ -46,4 +46,5 @@ class MinStack {
     public int getMin() {
         return minValue;
     }
+
 }

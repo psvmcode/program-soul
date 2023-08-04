@@ -7,9 +7,6 @@ import java.util.Map;
  * @what time    2022/11/10 19:25
  */
 public class a53最大子数组和 {
-    public static void main(String[] args) {
-
-    }
 
     //    // 暴力(回家等通知解法) 时间O(n^2) 超时
 //    public int maxSubArray(int[] nums) {

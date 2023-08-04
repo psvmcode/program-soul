@@ -9,9 +9,6 @@ import java.util.*;
  * @what time    2022/12/3 21:39
  */
 public class a101对称二叉树 {
-    public static void main(String[] args) {
-
-    }
 
     // 递归实现
     public boolean isSymmetric(TreeNode root) {

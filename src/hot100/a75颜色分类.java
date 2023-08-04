@@ -7,9 +7,6 @@ import java.util.Arrays;
  * @what time    2022/11/22 22:10
  */
 public class a75颜色分类 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 回家等通知解法
 //    public void sortColors(int[] nums) {

@@ -11,9 +11,6 @@ import java.util.Queue;
  * @what time    2022/12/15 12:16
  */
 public class a226翻转二叉树 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 用队列实现广度优先
 //    public TreeNode invertTree(TreeNode root) {

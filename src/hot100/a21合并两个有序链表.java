@@ -7,9 +7,6 @@ import hot100.common.ListNode;
  * @what time    2022/10/27 23:13
  */
 public class a21合并两个有序链表 {
-    public static void main(String[] args) {
-
-    }
 
     // 迭代
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
@@ -31,4 +28,5 @@ public class a21合并两个有序链表 {
         temp.next = list1 == null ? list2 : list1;
         return res.next;
     }
+
 }

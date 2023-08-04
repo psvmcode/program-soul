@@ -12,9 +12,6 @@ import java.util.Queue;
  * @what time    2022/12/4 20:06
  */
 public class a102二叉树的层序遍历 {
-    public static void main(String[] args) {
-
-    }
 
     // 借助队列实现层序遍历
     public List<List<Integer>> levelOrder(TreeNode root) {

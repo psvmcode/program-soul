@@ -8,9 +8,6 @@ import java.util.Map;
  * @what time    2022/11/30 11:29
  */
 public class a76最小覆盖子串 {
-    public static void main(String[] args) {
-
-    }
 
     // 滑动窗口解法
     public String minWindow(String s, String t) {

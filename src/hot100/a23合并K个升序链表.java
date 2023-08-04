@@ -7,9 +7,6 @@ import hot100.common.ListNode;
  * @what time    2022/10/30 22:59
  */
 public class a23合并K个升序链表 {
-    public static void main(String[] args) {
-
-    }
 
     // 分治解法，多路同时计算
     public ListNode mergeKLists(ListNode[] lists) {

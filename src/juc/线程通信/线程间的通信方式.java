@@ -5,6 +5,7 @@ package juc.线程通信;
  * @what time    2023/1/28 15:52
  */
 public class 线程间的通信方式 {
+
     public static void main(String[] args) {
         Bread bread = new Bread();
         Producter producter = new Producter(bread);
@@ -14,12 +15,15 @@ public class 线程间的通信方式 {
         t1.start();
         t2.start();
     }
+
 }
 
 // 面包
 class Bread {
+
     // 面包编号
     private int id;
+
     // 面包数量
     private int num;
 
@@ -77,10 +81,12 @@ class Bread {
     public void setNum(int num) {
         this.num = num;
     }
+
 }
 
 // 生产者
 class Producter extends Thread {
+
     // 获取当前面包
     private Bread bread;
 
@@ -116,9 +122,11 @@ class Producter extends Thread {
             bread.product();
         }
     }
+
 }
 
 class Consume extends Thread {
+
     // 面包
     private Bread bread;
 
@@ -155,4 +163,5 @@ class Consume extends Thread {
             bread.consume();
         }
     }
+
 }

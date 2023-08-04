@@ -9,8 +9,6 @@ import java.util.List;
  * @what time    2022/10/25 14:56
  */
 public class a15三数之和 {
-    public static void main(String[] args) {
-    }
 
     // 排序+双指针
     public List<List<Integer>> threeSum(int[] nums) {
@@ -48,4 +46,5 @@ public class a15三数之和 {
         }
         return res;
     }
+
 }

@@ -6,9 +6,6 @@ package hot100;
  * @what time    2022/10/21 12:49
  */
 public class a4寻找两个正序数组的中位数 {
-    public static void main(String[] args) {
-
-    }
 
     // 优化解法,双指针
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/11/21 23:16
  */
 public class a70爬楼梯 {
-    public static void main(String[] args) {
-
-    }
 
     // 动态规划:dp数组
     public int climbStairs(int n) {

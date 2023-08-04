@@ -5,8 +5,10 @@ package juc.死锁;
  * @what time    2022/12/30 21:43
  */
 public class 死锁 {
+
     // a对象
     public static Object a = new Object();
+
     // b对象
     public static Object b = new Object();
 
@@ -49,4 +51,5 @@ public class 死锁 {
             }
         }).start();
     }
+
 }

@@ -9,9 +9,6 @@ import java.util.Stack;
  * @what time    2022/12/9 18:37
  */
 public class a394字符串解码 {
-    public static void main(String[] args) {
-
-    }
 
     // 栈解题:自己的思路，比较混乱
     public String decodeString(String s) {
@@ -49,4 +46,5 @@ public class a394字符串解码 {
         }
         return res.reverse().toString();
     }
+
 }

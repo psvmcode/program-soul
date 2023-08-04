@@ -8,9 +8,6 @@ import java.util.List;
  * @what time    2022/12/3 10:54
  */
 public class a78子集 {
-    public static void main(String[] args) {
-
-    }
 
 //    List<Integer> path;
 //    List<List<Integer>> res;

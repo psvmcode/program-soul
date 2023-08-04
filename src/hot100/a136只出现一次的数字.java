@@ -10,8 +10,6 @@ import java.util.Set;
  * @what time    2022/12/4 21:26
  */
 public class a136只出现一次的数字 {
-    public static void main(String[] args) {
-    }
 
 //    // 暴力遍历:用map解决(回家等通知解法)
 //    public int singleNumber(int[] nums) {

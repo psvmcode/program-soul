@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/11/2 16:11
  */
 public class a31下一个排列 {
-    public static void main(String[] args) {
-
-    }
 
     // 技巧题：从后往前，找到第一个无序的元素下标i，然后找到后面第一个大于它的元素下标j，两者交换元素值后，反转i后面的所有元素
     public void nextPermutation(int[] nums) {
@@ -55,4 +52,5 @@ public class a31下一个排列 {
             right--;
         }
     }
+
 }

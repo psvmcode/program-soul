@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/10/24 23:04
  */
 public class a11盛最多水的容器 {
-    public static void main(String[] args) {
-
-    }
 
     // 回去等通知解法
 //    public int maxArea(int[] height) {
@@ -54,4 +51,5 @@ public class a11盛最多水的容器 {
 //        }
 //        return res;
 //    }
+
 }

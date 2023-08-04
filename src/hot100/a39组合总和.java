@@ -9,10 +9,6 @@ import java.util.List;
  * @what time    2022/11/2 20:13
  */
 public class a39组合总和 {
-    public static void main(String[] args) {
-
-    }
-
 
     List<List<Integer>> res;
     List<Integer> path;
@@ -79,4 +75,5 @@ public class a39组合总和 {
 //            sum -= candidates[i];
 //        }
 //    }
+
 }

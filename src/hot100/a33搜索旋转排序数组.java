@@ -5,9 +5,6 @@ package hot100;
  * @what time    2022/11/2 19:30
  */
 public class a33搜索旋转排序数组 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 遍历数组(回家等通知解法)
 //    public int search(int[] nums, int target) {

@@ -7,9 +7,6 @@ import java.util.*;
  * @what time    2022/11/6 21:04
  */
 public class a49字母异位词分组 {
-    public static void main(String[] args) {
-
-    }
 
     // HashMap解法，每次将字符串根据字典序排序后，放进哈希键值对中，根据字典序排序后是唯一的key
     public List<List<String>> groupAnagrams(String[] strs) {

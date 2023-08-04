@@ -13,9 +13,6 @@ import java.util.Queue;
  * @what time    2022/12/2 19:23
  */
 public class a114二叉树展开为链表 {
-    public static void main(String[] args) {
-
-    }
 
     //    List<TreeNode> list;
 //

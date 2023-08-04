@@ -7,9 +7,6 @@ import java.util.Arrays;
  * @what time    2022/11/16 22:53
  */
 public class a62不同路径 {
-    public static void main(String[] args) {
-
-    }
 
     // 排列组合解法:机器人一定会一定 m+n-2 步 todo
     public int uniquePaths(int m, int n) {
@@ -45,4 +42,5 @@ public class a62不同路径 {
 //        }
 //        return dp[m - 1][n - 1];
 //    }
+
 }

@@ -8,8 +8,6 @@ import java.util.Queue;
  * @what time    2022/11/10 20:00
  */
 public class a55跳跃游戏 {
-    public static void main(String[] args) {
-    }
 
     // 贪心解法
     public boolean canJump(int[] nums) {
@@ -57,6 +55,5 @@ public class a55跳跃游戏 {
 //        }
 //        return false;
 //    }
-
 
 }

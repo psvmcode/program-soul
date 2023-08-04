@@ -8,9 +8,6 @@ import java.util.Set;
  * @what time    2023/1/3 12:14
  */
 public class a287寻找重复数 {
-    public static void main(String[] args) {
-
-    }
 
 //    // 借用数据结构(回家等通知解法)
 //    public int findDuplicate(int[] nums) {

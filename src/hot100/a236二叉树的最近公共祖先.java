@@ -12,6 +12,7 @@ import java.util.Map;
  * @what time    2023/1/21 18:35
  */
 public class a236二叉树的最近公共祖先 {
+
     TreeNode res;
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -31,4 +32,5 @@ public class a236二叉树的最近公共祖先 {
         }
         return left || right || (root.val == p.val || root.val == q.val);
     }
+
 }

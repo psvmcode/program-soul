@@ -7,9 +7,6 @@ import hot100.common.TreeNode;
  * @what time    2022/12/2 20:32
  */
 public class a124二叉树中的最大路径和 {
-    public static void main(String[] args) {
-
-    }
 
     // 利用最大子数组和的思想
     int res = Integer.MIN_VALUE;
